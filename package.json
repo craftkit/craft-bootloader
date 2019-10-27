@@ -1,0 +1,25 @@
+{
+  "name": "@craftkit/craft-bootloader",
+  "version": "1.0.0",
+  "description": "Ultra fast web application loader by caching all libraries in IndexedDB",
+  "main": "index.js",
+  "module": "index.js",
+  "unpkg": "dist/craft-bootloader.min.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "wabpack --config config/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftkit/craft-bootloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craftkit/craft-bootloader/issues"
+  },
+  "homepage": "https://github.com/craftkit/craft-bootloader"
+}
