@@ -76,6 +76,13 @@ window.bootConfig = {
     },
 ``` 
 
+## Supported resource type
+
+| Type        | Suffix   | Loader              |  Description | 
+|:------------|:---------|:--------------------|:-------------|
+| JavaScript  | .js      | [JavaScriptLoader.js](./src/CraftBootloader/JavaScriptLoader.js) | loaded as text in generated script tag |
+| Style sheet | .css     | [StyleSheetLoader.js](./src/CraftBootloader/StyleSheetLoader.js) | loaded as text in generated style tag | 
+
 
 ## Runnable example
 
