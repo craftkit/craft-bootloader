@@ -20,6 +20,9 @@ CraftBootloader.usePackage = function(packages){
 };
 
 CraftBootloader.main = function(){
+	window.onProgress = window.onProgress || window.onprogress;
+	window.onLibrayLoaded = window.onLibrayLoaded || window.onlibrayloaded;
+	
 	if( !window.bootConfig.database ){
 		window.bootConfig.database = {};
 	}
