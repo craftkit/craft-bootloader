@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/craftkit/craft-bootloader.git"
   },
-  "keywords": [],
+  "keywords": [
+  	"IndexedDB",
+  	"WebApp Cache",
+  	"frontend"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
