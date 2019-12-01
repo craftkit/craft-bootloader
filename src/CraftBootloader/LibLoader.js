@@ -62,7 +62,7 @@ export class LibLoader {
 			if( lib.uri.match(/\.js$/) ){
 				lib.loader = new JavaScriptLoader(lib,this);;
 				lib.loader.prepare();
-			}else if( url.url.match(/\.css$/) ){
+			}else if( lib.uri.match(/\.css$/) ){
 				lib.loader = new StyleSheetLoader(lib,this);;
 				lib.loader.prepare();
 			}

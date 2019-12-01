@@ -1,6 +1,6 @@
 {
   "name": "@craftkit/craft-bootloader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ultra fast web application loader by caching all libraries in IndexedDB",
   "main": "index.js",
   "module": "index.js",
