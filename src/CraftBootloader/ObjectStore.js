@@ -11,6 +11,7 @@ export class ObjectStore {
 	/**
 	 * Constructor
 	 *
+	 * @param {Database} database - instance of Database
 	 * @param {String} name - ObjectStore name
 	 */
 	constructor(database,name){

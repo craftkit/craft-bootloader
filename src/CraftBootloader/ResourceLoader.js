@@ -74,7 +74,7 @@ export class ResourceLoader {
 	/**
 	 * Abstruct method.
 	 * 
-	 * Child must implement how to laod the resource into the DOM.
+	 * Child must implement how to laod the resource into the DOM tree.
 	 * 
 	 * @protected
 	 */

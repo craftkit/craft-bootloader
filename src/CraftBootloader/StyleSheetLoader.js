@@ -4,7 +4,7 @@ import { ResourceLoader } from './ResourceLoader.js';
 /** 
  * StyleSheet loader.
  * 
- * Append the loaded resource to the head element.
+ * Append the loaded resource as a head element.
  * 
  * @namespace CraftBootloader.StyleSheetLoader
  * @packagename CraftBootloader.StyleSheetLoader
