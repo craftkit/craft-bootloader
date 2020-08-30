@@ -9,8 +9,6 @@ Ultra fast web application loader by caching all libraries in IndexedDB.
 1. Load CraftBootloader (`craft-bootloader.min.js`)
 2. Define `window.bootConfig`
 
-When `DOMContentLoaded` is fired, `onLibraryLoaded` is executed.
-
 ``` 
 <html>
 <head>
